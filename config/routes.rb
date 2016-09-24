@@ -16,6 +16,7 @@ Rails.application.routes.draw do
   # scope '/admin', module: 'admin' do
   #   resources :stats, only: [:index]
   # end
+
   # When we want to route with a module and use that module's name as the URL prefix
   # NOTE: Using namespace updates our URL helpers from stats_path to admin_stats_path
   namespace :admin do
